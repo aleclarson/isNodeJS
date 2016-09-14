@@ -1,0 +1,11 @@
+{
+  "name": "isNodeJS",
+  "version": "1.0.0",
+  "main": "isNodeJS.js",
+  "dependencies": {
+    "exposeToGlobal": "aleclarson/exposeToGlobal#1.0.0"
+  },
+  "browser": {
+    "./server": "./browser"
+  }
+}
